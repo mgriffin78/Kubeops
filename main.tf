@@ -6,6 +6,13 @@ terraform {
     }
   }
 }
+cloud {
+    organization = "mgriffin78"
+
+    workspaces {
+      name = "IAC_Example"
+    }
+  }
 
 provider "aws" {
   region  = "us-east-1"
