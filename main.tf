@@ -13,7 +13,7 @@ terraform {
     }
   }
 }
-
+#small updated made
 provider "aws" {
   region  = "us-east-1"
 }
