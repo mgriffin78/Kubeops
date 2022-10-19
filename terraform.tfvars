@@ -28,5 +28,10 @@ ec2_map = {
       Name = "linux_qa_db"    
       env = "qa2"
       app = "db"
+},
+    linux7 = {
+      Name = "IACEXAMPLE"    
+      env = "qa2"
+      app = "db"
 }
 }
