@@ -10,12 +10,12 @@ ec2_map = {
      app = "db"
     },
     linux3 = {
-      Name = "linux_dev_web"    
+      Name = "IAC_dev_web"    
       env = "dev1"
       app = "web"
     },
     linux4 = {
-      Name = "linux_dev_db"    
+      Name = "IAC_dev_db"    
       env = "dev2"
       app = "db"
     },
