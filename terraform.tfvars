@@ -1,7 +1,7 @@
 ec2_map = {   
     linux1 = {
       Name = "linux_prod_web"     
-      env = "prod1"
+      env = "MODIFIED"
       app = "web"
     },
     linux2 = {
@@ -16,7 +16,7 @@ ec2_map = {
     },
     linux4 = {
       Name = "IAC_dev_db"    
-      env = "dev2"
+      env = "MODIFIED"
       app = "db"
     },
      linux5 = {
